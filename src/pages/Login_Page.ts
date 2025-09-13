@@ -15,7 +15,7 @@ export class Login{
         await this.page.locator(LoginLocator.click_login).click()
         await this.page.waitForTimeout(5000)
     }
-    async e_number(){
+    async enter_number(){
         await this.page.locator(LoginLocator.click_to_enter_number).fill("8294915462")
         await this.page.waitForTimeout(3000)
     }
