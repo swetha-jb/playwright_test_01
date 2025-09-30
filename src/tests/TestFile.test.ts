@@ -65,7 +65,7 @@ test.afterAll("Suite TearDown", async () => {
 test("Click_on_login", async () => {
     test.setTimeout(60000);
     const loginPage = new Login(page);
-    await loginPage.Click_login_page();
+    await loginPage.Click_logi_page();
 });
 
 test("enter number", async () => {
