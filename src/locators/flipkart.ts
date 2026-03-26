@@ -4,4 +4,6 @@ class Login_Locator{
     click_on_rqst_otp='xpath=//button[text()="Request OTP"]'
 }
 
+console.log('nn');
+
 export const LoginLocator=new Login_Locator()
